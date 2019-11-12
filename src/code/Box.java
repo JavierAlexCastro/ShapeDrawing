@@ -2,7 +2,7 @@ package code;
 
 import java.awt.Graphics;
 
-public class Box extends Shape{
+public class Box implements Shape{
 	int x, y, width, height;
 
 	public Box(int x, int y, int width, int height) {

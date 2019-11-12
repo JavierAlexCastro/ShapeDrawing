@@ -2,7 +2,7 @@ package code;
 
 import java.awt.Graphics;
 
-public class Line extends Shape{
+public class Line implements Shape{
 	int x1, x2, y1, y2;
 
 	public Line(int x1, int y1) {

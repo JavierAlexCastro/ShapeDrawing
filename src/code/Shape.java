@@ -2,11 +2,7 @@ package code;
 
 import java.awt.Graphics;
 
-public class Shape {
+public interface Shape {
 
-	int x, y;
-
-	public void draw(Graphics g) {
-		//draw routine
-	}
+	public void draw(Graphics g);
 }

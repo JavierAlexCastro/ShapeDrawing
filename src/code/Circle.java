@@ -2,7 +2,7 @@ package code;
 
 import java.awt.Graphics;
 
-public class Circle extends Shape{
+public class Circle implements Shape{
 
     int x, y, width, height;
 
